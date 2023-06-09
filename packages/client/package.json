@@ -11,13 +11,19 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.9.1",
     "axios": "^1.2.1",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.44.3",
     "react-router-dom": "^6.4.5",
+    "react-table": "^7.8.0",
     "sass": "^1.56.2"
+  },
+  "resolutions": {
+    "nth-check": "^2.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -36,7 +42,7 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-destructure-keys": "^1.4.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.9.4"
   },
   "browserslist": {
