@@ -65,6 +65,7 @@ InferCreationAttributes<Assessment>
       },
       /* eslint-enable sort-keys */
     }, {
+      paranoid: true,
       sequelize,
     });
 
